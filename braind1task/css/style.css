@@ -1,0 +1,336 @@
+/* Slider css */
+.slider{
+    background-color: #E0DCCD;
+    padding-bottom: 40px;
+}
+.swapSlider{
+    position:absolute;  
+    margin-left: 80%; 
+    margin-top:10%;
+}
+.sliderImg{
+    margin: 5%; 
+    width: 90%;
+}
+.slideshow-container {
+    max-width: 1980px;
+    position: relative;
+    margin: auto;
+  }
+    /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+    /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .vapianoText {
+    color: white;
+    font-size: 20px;
+    margin: 10%;
+    position: absolute;
+    top: 0;
+  }
+    /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 13px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+    /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* menu css */
+  .mainMenu {
+    width: 100%;
+    display: flex;
+    /* -webkit-box-pack: center;
+    -ms-flex-pack: center; */
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -10%;
+  }
+  .mainMenu ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .mainMenu ul li {
+    /* выстраиваем элементы списка в один ряд */
+    border-color: white;
+    float: left;
+    display: inline-block;
+  }
+  .mainMenu ul li a {
+    padding: 20px;
+    text-decoration: none;
+    font: bold 14px Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: #000 0px 0px 3px;
+    border-width: 12.12px;
+    border-color: white;
+    background-color: rgba(141, 143, 142, 0.1);
+    border-right: 1px solid #fff;
+  }
+  .mainMenu ul li a.active {
+    background: white;
+  }
+  .mainMenu ul li a:hover {
+    background-color: white;
+    -moz-opacity: .90;
+    filter: alpha(opacity=90);
+    opacity: .90;
+  }
+  .nameMenu {
+    font-size: 30px;
+  }
+
+  /* header css */
+  .blackHeader {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    background-color: black;  
+    color: white;
+  }
+  .blackHeader hr {
+    width: 10%;
+    border: none;
+    color: rgb(242, 171, 127 );
+    background-color: rgb(242, 171, 127 );
+    height: 6px;
+    margin-top: -8px;
+  } 
+  .blackHeader .orangeLine hr {
+    width: 100%;
+    border: none;
+    color: rgb(242, 171, 127 );
+    background-color: rgb(242, 171, 127 );
+    height: 1px;
+    margin-top: 20px;
+  } 
+
+  /* food coast css */
+  .foodCoast img {
+      margin: 40px 10% 40px 10%;
+      width: 80%;
+  }
+
+  /* workingTime css */
+  .workingTime {
+      font-size: 20px;
+      text-align: center;
+      width: 40%;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  /* headLine */
+  .headLine {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(242, 171, 127 );
+    margin-bottom: 20px;
+  }
+
+  /* Slider css */
+  .swapSlider1{  
+    text-align: center;
+  }
+  .sliderImg1{
+    margin: 5%; 
+    width: 90%;
+  }
+  .slideshow-container1 {
+    max-width: 1980px;
+    position: relative;
+    margin: auto;
+  }
+  .dot1 {
+    cursor: pointer;
+    height: 13px;
+    width: 12px;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+  }
+  .swapSlider1 span{
+  color: rgb(242, 171, 127 );
+  font-size: 25px;
+  }
+  .mySlides1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -50px;
+    text-align: center;
+  }
+  .sliderImg1 {
+    border: 8px solid #fff;
+    outline: 2px solid rgb(242, 171, 127);
+    text-align: center;
+    width: 20%;
+  }
+  .fade1 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.speisekarte {
+  background-color: #E0DCCD;
+  padding-bottom: 40px;
+}
+.aboutFood {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.aboutFood .infoFood img {
+  width: 50%;
+  height: 100%;
+}
+.infoFood {
+  display:flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-color: white;
+  border: 8px solid #E0DCCD;
+  outline: 2px solid rgb(242, 171, 127);
+}
+.textFood {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 10px;
+}
+.kontakt {
+  background-color: #E0DCCD;
+}
+.senderForm {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.senderForm input {
+  border: 1px solid rgb(242, 171, 127);
+  background-color: #E0DCCD;
+}
+#message {
+  height: 200px;
+  width: 90%;
+}
+.sender {
+  margin-left: 5%;
+  width: 50%;
+}
+.btn {
+  padding: 10px 5% 10px 5%;
+}
+input:hover {
+  background-color: rgba(242, 171, 127, 0.4);
+}
+.map {
+  width: 40%;
+  height: 250px;
+  margin-top: 40px;
+  margin-right: 10%;
+  border: 8px solid #E0DCCD;
+  outline: 2px solid rgb(242, 171, 127);
+}
+.pos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 100px;
+}
+footer {
+  background-color: #1F1F21;
+}
+.whiteHeader {
+  background-color: white;
+  width: 75%;
+  padding: 50px;
+  margin: 0 10% 0 10%;
+  margin-top: -80px;
+  text-align: left;
+  color: #1F1F21;
+}
+.blackF {
+  background-color: #1F1F21;
+}
+.about span {
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 12px;
+}
+.member .headLine {
+  text-align: left;
+  margin-bottom: -25px;
+}
+.col {
+  margin-top: 60px;
+  width: 450px;
+  margin-bottom: 40px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
