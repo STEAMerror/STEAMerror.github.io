@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=UTF-8">  
+    <title>First task</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Первый слайдер -->
+<div class="slider" id="home">
+    <div class="swapSlider">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>    
+    </div>
+    <div class="slideshow-conteiner">
+
+        <div class="mySlides fade">
+            <div class="vapianoText">VAPIANO</div>
+            <img class="sliderImg" src="img/cat1.jpg" height="600px" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="vapianoText">VAPIANO</div>
+            <img class="sliderImg" src="img/cat2.jpg" height="600px" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="vapianoText">VAPIANO</div>
+            <img class="sliderImg" src="img/cat3.jpg" height="600px" alt="">
+        </div>
+
+        <!-- Меню на слайдере -->
+        <div class="mainMenu"> 
+            <ul>
+                <li><a href='#home' title="Home" class="active">Home</a></li>
+                <li><a href='#mittagsmenu' title="Mittagsmenu">Mittagsmenu</a></li>
+                <li><a href='#speisekarte' title="Speisekarte">Speisekarte</a></li>
+                <li><a href=* title="Galerie">Galerie</a></li>
+                <li><a href='#kontakt' title="Kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+</div>
+
+<!-- Шапка mittagsmenu -->
+<header>
+<div class="blackHeader">
+    <br>
+    <span class="nameMenu" id="mittagsmenu">Miltagsmenu</span>
+    <div class="orangeLine"><hr></div>
+    <hr>
+    <br>
+</div>
+</header>
+
+<!-- Предложенная пища -->
+    <div class="main">
+    <div class="foodCoast">
+    <img src="img/1bludo.jpg">
+    <img src="img/2bludo.jpg">
+    <img src="img/3bludo.jpg">
+</div>
+
+<!-- Часы работы -->
+<div class="workingTime">
+    I don`t understand this language, but this restaurant is open from 10am to 10pm.
+</div>
+<div class="headLine">
+    <span>&#9672&#9473&#9473&#9473</span>
+    <span class="actionen"> Actionen </span>
+    <span>&#9473&#9473&#9473&#9672</span>
+</div>
+
+<!-- Второй слайдер -->
+<div class="slideshow-conteiner1">
+    <div class="mySlides1 fade1">
+        <img class="sliderImg1" id="slider1" src="img/cat1.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat3.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat2.jpg" alt="">  
+    </div>
+
+    <div class="mySlides1 fade1">
+        <img class="sliderImg1" id="slider1" src="img/cat1.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat2.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat1.jpg" alt=""> 
+    </div>
+
+    <div class="mySlides1 fade1">
+        <img class="sliderImg1" id="slider1" src="img/cat3.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat2.jpg" alt="">
+        <img class="sliderImg1" id="slider1" src="img/cat1.jpg" alt=""> 
+    </div>
+
+    <div class="swapSlider1">
+        <span class="dot1" onclick="currentSlide1(1)">&#9671</span>
+        <span class="dot1" onclick="currentSlide1(2)">&#9671</span>
+        <span class="dot1" onclick="currentSlide1(3)">&#9671</span>    
+    </div>
+</div>
+
+<!-- Меню speisekarte -->
+<div class="speisekarte" id="speisekarte"> 
+    <!-- Шапка speisekarte -->
+    <div class="blackHeader">
+        <br>
+        <span class="nameMenu">Speisekarte</span>
+        <div class="orangeLine">
+            <hr>
+        </div>
+        <hr>
+        <br>
+    </div>
+
+    <!-- Дополнительная информация о Котиках -->
+    <div class="aboutFood">
+        <div class="infoFood" >
+            <div class="textFood">
+            <H1>H&PASTA</H1>
+            <span class="text">Potato<br>lococb<br>mishka<br></span>
+            <a href=*>Read more...</a>
+            </div>
+            <img src="img/cat1.jpg">
+        </div>
+        <div class="infoFood">
+            <div class="textFood">
+                <H1>H&PASTA</H1>
+                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <a href=*>Read more...</a>
+            </div>
+            <img src="img/cat2.jpg">
+        </div>
+    </div>
+    <div class="aboutFood">
+        <div class="infoFood">
+            <div class="textFood">
+                <H1>H&PASTA</H1>
+                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <a href=*>Read more...</a>
+            </div>
+            <img src="img/cat3.jpg">
+        </div>
+        <div class="infoFood">
+            <div class="textFood">
+                <H1>H&PASTA</H1>
+                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <a href=*>Read more...</a>
+            </div>
+            <img src="img/cat1.jpg">
+        </div>
+    </div>
+</div>
+
+<!-- Контакт с технической поддержкой? -->
+<div class="kontakt" id="kontakt"> 
+    <!-- Шапка kontakt -->
+    <div class="blackHeader">
+        <br>
+        <span class="nameMenu">Kontakt</span>
+        <div class="orangeLine">
+            <hr>
+        </div>
+        <hr>
+        <br>
+    </div>
+    <div class="pos">
+        <!-- Форма для отправки сообщения -->
+        <div class="sender">
+            <form class="senderForm" method="post" action="javascript:void(0);">
+                <p>Name<br> <input type="text" name="Name" /></p>
+                <p>Last Name<br> <input type="text" name="Last Name" /></p>
+                <p>Message<br> <input type="text" name="Message" id="message" /></p>
+                <p><input type="submit" class="btn" value="Send"/></p>
+            </form>
+        </div>
+        <!-- Гугл карта -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16246.824107315897!2d36.044743249999996!3d52.9623088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1571991831437!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div> 
+</div>
+    
+<footer>
+    <!-- Костыль для получения черного фона в нужном месте -->
+<div class="blackF">
+<br>
+</div>
+<!-- Приглашение на белом фоне -->
+<div class="whiteHeader">
+    <br>
+    <span class="member"><b>Become a member of <br>Goran Ramljak dribbble page</b><br>
+    <div class="headLine">&#9672&#9473&#9473&#9473&#9473&#9473&#9473&#9672</div><br>
+    and get all the information about new freebeis...</span>
+    <br>
+</div>
+
+<!-- Раздел "О нас" -->
+<div class="about">
+    <div class="col">
+        <span>OFFNUNGSZEITEN</span>
+        <span>Mo-Fr. 8-z3h` Sa: 9-21h</span>
+        <span>So. Felertags: 10-21h</span>
+    </div>
+    <div class="col">
+        <span>ANSCHRIFT</span>
+        <span>Reichstratsstrasse 17</span>
+        <span>A - 1010 Wien</span>
+    </div>
+    <div class="col">
+        <span>KONTAKT</span>
+        <span>Telefon: *431 223333</span>
+        <span>Email: office@cafe-vapiano.at</span>
+    </div>
+</div>
+</footer>
+
+    <!-- Подключение файла js в конце, так как нет функции docyment.ready -->
+<script ENGINE="text/javascript" src="js/main.js"></script>
+</body>
+</html>

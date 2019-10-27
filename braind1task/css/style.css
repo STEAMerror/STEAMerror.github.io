@@ -95,6 +95,7 @@
   }
   .mainMenu ul li {
     /* выстраиваем элементы списка в один ряд */
+    display: block;
     border-color: white;
     float: left;
     display: inline-block;
@@ -126,6 +127,7 @@
 
   /* header css */
   .blackHeader {
+    font-style: italic;
     width: 80%;
     margin: 0 10% 0 10%;
     text-align: center;
@@ -157,6 +159,7 @@
 
   /* workingTime css */
   .workingTime {
+      font-style: italic;
       font-size: 20px;
       text-align: center;
       width: 40%;
@@ -168,15 +171,19 @@
 
   /* headLine */
   .headLine {
+    
     text-align: center;
     font-size: 30px;
     color: rgb(242, 171, 127 );
     margin-bottom: 20px;
   }
-
-  /* Slider css */
+ .headLine .actionen {
+  font-style: italic;
+ }
+  /* Slider1 css */
   .swapSlider1{  
     text-align: center;
+    margin-top: 20px;
   }
   .sliderImg1{
     margin: 5%; 
@@ -224,7 +231,10 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+/* speisekarte css */
 .speisekarte {
+  font-style: italic;
   background-color: #E0DCCD;
   padding-bottom: 40px;
 }
@@ -258,14 +268,21 @@
   align-items: stretch;
   padding: 10px;
 }
+.textFood .text, .textFood a {
+  font-style: normal;
+}
+
+/* kontakt css */
 .kontakt {
   background-color: #E0DCCD;
 }
 .senderForm {
+  font-weight: bold;
   margin-left: 10%;
   margin-top: 40px;
 }
 .senderForm input {
+  font-weight: bold;
   border: 1px solid rgb(242, 171, 127);
   background-color: #E0DCCD;
 }
@@ -298,10 +315,14 @@ input:hover {
   align-items: flex-start;
   padding-bottom: 100px;
 }
+
+/* footer css */
 footer {
   background-color: #1F1F21;
 }
 .whiteHeader {
+  font-style: italic;
+  font-size: 30px;
   background-color: white;
   width: 75%;
   padding: 50px;
@@ -309,6 +330,9 @@ footer {
   margin-top: -80px;
   text-align: left;
   color: #1F1F21;
+}
+.whiteHeader  {
+  font-style: normal;
 }
 .blackF {
   background-color: #1F1F21;
@@ -319,7 +343,12 @@ footer {
   margin-right: 30%;
   font-size: 12px;
 }
+.member {
+  font-style: italic;
+  font-size: 30px;
+}
 .member .headLine {
+  font-style: normal;
   text-align: left;
   margin-bottom: -25px;
 }
