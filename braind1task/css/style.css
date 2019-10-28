@@ -283,6 +283,13 @@
   margin-top: 40px;
 }
 .senderForm input {
+  width: 40%;
+  font-weight: bold;
+  border: 1px solid rgb(242, 171, 127);
+  background-color: #E0DCCD;
+}
+.senderForm textarea {
+  width: 80%;
   font-weight: bold;
   border: 1px solid rgb(242, 171, 127);
   background-color: #E0DCCD;
@@ -298,7 +305,7 @@
 .btn {
   padding: 10px 5% 10px 5%;
 }
-input:hover {
+input:hover, textarea:hover {
   background-color: rgba(242, 171, 127, 0.4);
 }
 .map {
