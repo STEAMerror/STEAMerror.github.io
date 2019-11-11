@@ -1,4 +1,3 @@
-
 <?php
         // city 1 api
         $key = '3f8429473cc28d4460ea04104cd1ff2b'; 
@@ -19,7 +18,6 @@
         "', `icon_id`='" . $iconId . "' WHERE `id_city`=1";
         // echo $query;
         $result = mysqli_query($con, $query) or die("Ошибка " . mysqli_error($con));
-
     ?>
 
     <?php
@@ -42,5 +40,4 @@
         // echo $query1;
         $result = mysqli_query($con, $query1) or die("Ошибка " . mysqli_error($con));
         mysqli_close($con);
-        
     ?>
