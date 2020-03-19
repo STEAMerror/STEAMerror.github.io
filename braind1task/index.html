@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
 
 <!-- Первый слайдер -->
 <div class="slider" id="home">
@@ -18,42 +19,42 @@
 
         <div class="mySlides fade">
             <div class="vapianoText">VAPIANO</div>
-            <img class="sliderImg" src="img/cat4.jpg" height="700px" alt="">
+            <img class="sliderImg" src="img/cat1.jpg" height="900px" alt="">
         </div>
 
         <div class="mySlides fade">
             <div class="vapianoText">VAPIANO</div>
-            <img class="sliderImg" src="img/cat5.jpg" height="700px" alt="">
+            <img class="sliderImg" src="img/cat2.jpg" height="900px" alt="">
         </div>
 
         <div class="mySlides fade">
             <div class="vapianoText">VAPIANO</div>
-            <img class="sliderImg" src="img/cat6.jpg" height="700px" alt="">
+            <img class="sliderImg" src="img/cat3.jpg" height="900px" alt="">
         </div>
 
-        <!-- Меню на слайдере -->
-        <div class="mainMenu"> 
-            <ul>
-                <li><a href='#home' title="Home" class="active">Home</a></li>
-                <li><a href='#mittagsmenu' title="Mittagsmenu">Mittagsmenu</a></li>
-                <li><a href='#speisekarte' title="Speisekarte">Speisekarte</a></li>
-                <li><a href=* title="Galerie">Galerie</a></li>
-                <li><a href='#kontakt' title="Kontakt">Kontakt</a></li>
-            </ul>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-        <a class="next" onclick="plusSlides(1)">&#10095</a>
+        
+        
+    </div>
+    <!-- Меню на слайдере -->
+    <div class="mainMenu"> 
+        <ul>
+            <li class="active"><a href='#home' title="Home">Home</a></li>
+            <li><a href='#mittagsmenu' title="Mittagsmenu">Mittagsmenu</a></li>
+            <li><a href='#speisekarte' title="Speisekarte">Speisekarte</a></li>
+            <li><a href=* title="Galerie">Galerie</a></li>
+            <li><a href='#kontakt' title="Kontakt">Kontakt</a></li>
+        </ul>
     </div>
 </div>
 
 <!-- Шапка mittagsmenu -->
-<header>
+
 <div class="blackHeader">
-    <br>
+   
     <span class="nameMenu" id="mittagsmenu">Miltagsmenu</span>
     <div class="orangeLine"><hr></div>
     <hr>
-    <br>
+
 </div>
 </header>
 
@@ -106,29 +107,27 @@
 <div class="speisekarte" id="speisekarte"> 
     <!-- Шапка speisekarte -->
     <div class="blackHeader">
-        <br>
         <span class="nameMenu">Speisekarte</span>
         <div class="orangeLine">
             <hr>
         </div>
         <hr>
-        <br>
     </div>
 
     <!-- Дополнительная информация о Котиках -->
     <div class="aboutFood">
         <div class="infoFood" >
             <div class="textFood">
-            <H1>H&PASTA</H1>
-            <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <b>H&PASTA</b>
+            <span class="text">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
             <a href=*>Read more...</a>
             </div>
             <img src="img/cat1.jpg">
         </div>
         <div class="infoFood">
             <div class="textFood">
-                <H1>H&PASTA</H1>
-                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <b>H&PASTA</b>
+                <span class="text">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
                 <a href=*>Read more...</a>
             </div>
             <img src="img/cat2.jpg">
@@ -137,16 +136,16 @@
     <div class="aboutFood">
         <div class="infoFood">
             <div class="textFood">
-                <H1>H&PASTA</H1>
-                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <b>H&PASTA</b>
+                <span class="text">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
                 <a href=*>Read more...</a>
             </div>
             <img src="img/cat3.jpg">
         </div>
         <div class="infoFood">
             <div class="textFood">
-                <H1>H&PASTA</H1>
-                <span class="text">Potato<br>lococb<br>mishka<br></span>
+                <b>H&PASTA</b>
+                <span class="text">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
                 <a href=*>Read more...</a>
             </div>
             <img src="img/cat1.jpg">
@@ -158,21 +157,19 @@
 <div class="kontakt" id="kontakt"> 
     <!-- Шапка kontakt -->
     <div class="blackHeader">
-        <br>
         <span class="nameMenu">Kontakt</span>
         <div class="orangeLine">
             <hr>
         </div>
         <hr>
-        <br>
     </div>
     <div class="pos">
         <!-- Форма для отправки сообщения -->
         <div class="sender">
             <form class="senderForm" method="post" action="javascript:void(0);">
-                <p>Name<br> <input type="text" name="Name" /></p>
-                <p>Last Name<br> <input type="text" name="Last Name" /></p>
-                <p>Message<br> <textarea rows="12" cols="80"></textarea></p>
+                <p class="input_form">Name <input type="text" name="Name" /></p>
+                <p class="input_form">Last Name <input type="text" name="Last Name" /></p>
+                <p class="input_form">Message <input type="text" name="Message" id="message" /></p>
                 <p><input type="submit" class="btn" value="Send"/></p>
             </form>
         </div>
@@ -185,16 +182,13 @@
     
 <footer>
     <!-- Костыль для получения черного фона в нужном месте -->
-<div class="blackF">
-<br>
+<div class="background_fon">
 </div>
 <!-- Приглашение на белом фоне -->
 <div class="whiteHeader">
-    <br>
-    <span class="member"><b>Become a member of <br>Goran Ramljak dribbble page</b><br>
-    <div class="headLine">&#9672&#9473&#9473&#9473&#9473&#9473&#9473&#9672</div><br>
+    <span class="member"><b>Become a member of<br>Goran Ramljak dribbble page</b>
+    <div class="headLine">&#9672&#9473&#9473&#9473&#9473&#9473&#9473&#9672</div>
     and get all the information about new freebeis...</span>
-    <br>
 </div>
 
 <!-- Раздел "О нас" -->
@@ -217,7 +211,7 @@
 </div>
 </footer>
 
-    <!-- Подключение файла js в конце, так как нет функции docyment.ready -->
+    <!-- Подключение файла js в конце, так как нет функции doc.ready -->
 <script ENGINE="text/javascript" src="js/main.js"></script>
 </body>
 </html>

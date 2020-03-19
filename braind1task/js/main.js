@@ -28,12 +28,6 @@ function showSlides(n) {
 }
 
 
-
-
-
-
-
-
 var slideIndex1 = 1;
 showSlides1(slideIndex1);
 
