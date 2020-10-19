@@ -73,14 +73,14 @@
 </span> 
 <br>
 
-<img class="icon" src="img/wind.png"> 
+<img class="icon" src="img/Wind.png"> 
 <span class="param">
     <?php 
     print $wind; 
     ?> м/c 
 </span>
 <br>
-<img class="icon" src="img/pressure.png"> 
+<img class="icon" src="img/Pressure.png"> 
 <span class="param"> 
     <?php 
     print round($pressure, 0);
